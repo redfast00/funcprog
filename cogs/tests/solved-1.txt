@@ -1,0 +1,28 @@
+width: 4
+height: 4
+sources: {
+	(0, 0)
+}
+sinks: {
+	(2, 3)
+}
+tiles: {
+	{ pos: (0, 0), fixed: no, south: open, north: open },
+	{ pos: (0, 1), fixed: yes, default: closed },
+	{ pos: (0, 2), fixed: no },
+	{ pos: (0, 3), fixed: no, east: open, south: open },
+
+	{ pos: (1, 0), fixed: no, north: open, south: open },
+	{ pos: (1, 2), fixed: no, east: open, west: open },
+	{ pos: (1, 3), fixed: no, default: closed },
+
+	{ pos: (2, 0), fixed: no, north: open, east: open },
+	{ pos: (2, 1), fixed: no, west: open, east: open },
+	{ pos: (2, 2), fixed: no, east: open, west: open },
+	{ pos: (2, 3), fixed: no, west: open, east: open },
+
+	{ pos: (3, 0), fixed: no, default: open},
+	{ pos: (3, 1), fixed: no, east: open, west: open },
+	{ pos: (3, 2), fixed: yes },
+	{ pos: (3, 3), fixed: no, east: open, west: open }
+}

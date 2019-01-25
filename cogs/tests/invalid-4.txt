@@ -1,0 +1,8 @@
+width:1
+height:2
+sources: {(0,0)}
+sinks: {(0,
+0)}
+tiles: {
+  {pos:(0,0),fixed:yes,north:open}
+}
